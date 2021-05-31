@@ -20,15 +20,15 @@ function itemTreeView($itemArr,$parent,$level=0,$prelevel= -1){
 		if($parent==$data['parent_id']){
 			if($level>$prelevel){
 				if($html==''){
-					$html.='<ul class="nav navbar-nav">';
+					$html.='<ul>';
 				}else{
-					$html.='<ul class="dropdown-menu" >';
+					$html.='<ul>';
 				}
 			}
 			if($level==$prelevel){
 				$html.='</li>';
 			}
-			$html.='<li><a href="#">'.$data['name'].'<span class="caret"></span></a>';
+			$html.='<li><a href="#">'.$data['name'].'</a>';
 			if($level>$prelevel){
 				$prelevel=$level;
 			}

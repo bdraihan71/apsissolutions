@@ -33,6 +33,21 @@ php artisan db:seed
 ```
 
 
+## How to run and how to see output
+- Run Server
+```sh
+php artisan serve
+```
+- Using PHP recursive function for creating a menu
+```sh
+http://127.0.0.1:8000
+```
+
+- Using Laravel eloquent relationships for creating a treeview
+```sh
+http://127.0.0.1:8000/item
+```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
